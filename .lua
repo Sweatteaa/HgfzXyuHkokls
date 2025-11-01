@@ -15,7 +15,7 @@ local Window = WindUI:CreateWindow({
 })
 
 -- Tabs
-local MainTab = Window:Tab({ Title = "Main", Icon = "home" })
+local MainTab = Window:Tab({ Title = "Main", Icon = "house" })
 local VisualTab = Window:Tab({ Title = "Visual", Icon = "eye" })
 local MiscTab = Window:Tab({ Title = "Misc", Icon = "person-standing" })
 
@@ -34,7 +34,7 @@ MainSection:Toggle({
 })
 
 -- Sliders
-Section:Slider({
+MiscSection:Slider({
     Title = "WalkSpeed",
     Min = 16,
     Max = 200,
