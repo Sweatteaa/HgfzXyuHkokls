@@ -33,6 +33,14 @@ MainSection:Toggle({
     end
 })
 
+MainSection:Toggle({
+    Title = "Reach",
+    Default = false,
+    Callback = function(state)
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Sweatteaa/jskbnnwoiuBbe/refs/heads/main/ii"))();
+    end
+})
+
 -- Sliders
 MiscSection:Slider({
     Title = "WalkSpeed",
