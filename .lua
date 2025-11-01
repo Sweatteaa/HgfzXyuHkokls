@@ -37,7 +37,7 @@ MainSection:Toggle({
     Title = "Reach",
     Default = false,
     Callback = function(state)
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Sweatteaa/jskbnnwoiuBbe/refs/heads/main/ii"))();
+        loadstring(game:HttpGet("https://github.com/Sweatteaa/HgfzXyuHkokls/blob/main/reach.lua"))();
     end
 })
 
