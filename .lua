@@ -45,7 +45,6 @@ MiscSection:Slider({
     end
 })
 
-
 --  Config system
 local ConfigManager = Window.ConfigManager
 local MyConfig = ConfigManager:CreateConfig("MyConfig")
